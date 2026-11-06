@@ -7,7 +7,6 @@ public class Write
     {
         using (StreamWriter outputFile = new StreamWriter(_fileName))
         {
-            outputFile.WriteLine("Journal:");
             foreach (string line in _textList)
             {
                 outputFile.WriteLine(line);

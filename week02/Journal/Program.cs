@@ -1,3 +1,7 @@
+// Creativity: I learned how to change font color to make menu options 
+// make more sense. In addition to the color changes, the user can input 
+// either the first word of the menu prompt or the associated number.
+// I added an option to save before quitting.
 using System;
 using System.ComponentModel.DataAnnotations;
 

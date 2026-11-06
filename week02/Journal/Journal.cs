@@ -10,6 +10,9 @@ class Journal
 
     public void Display()
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine("Journal: ");
+        Console.ForegroundColor = ConsoleColor.DarkBlue;
         foreach (string entry in _entries)
         {
             string updatedEntry = entry.Replace(" || ", "").Trim();
