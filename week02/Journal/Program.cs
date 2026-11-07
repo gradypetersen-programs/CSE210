@@ -51,6 +51,8 @@ class Program
                 Console.WriteLine(prompt);
                 Console.Write("> ");
                 newEntry._userEntry = Console.ReadLine();
+                DateTime theCurrentTime = DateTime.Now;
+                newEntry._date = theCurrentTime.ToShortDateString();
                 userEntry._entry = newEntry.CreateString();
                 userEntry.AddEntry();
             }
