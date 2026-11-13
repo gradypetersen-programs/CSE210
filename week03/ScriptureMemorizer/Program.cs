@@ -1,4 +1,5 @@
 // Creativity and exceeding requirements: I added a list of scriptures from the doctrinal mastery that the program selects from each time the program runs. A new scripture is selected randomly each run. This creates a much greater experience by adding more scriptures.
+// I also have a check set up to prevent words from being blanked twice. Only words that are not blanked are blanked.
 using System;
 class Program
 {
