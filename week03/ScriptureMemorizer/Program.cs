@@ -1,4 +1,4 @@
-// Creativity and exceeding requirements: I added a list of scriptures from the doctrinal mastery that the program selects from each time the program runs. A new scripture is selected randomly each run.
+// Creativity and exceeding requirements: I added a list of scriptures from the doctrinal mastery that the program selects from each time the program runs. A new scripture is selected randomly each run. This creates a much greater experience by adding more scriptures.
 using System;
 class Program
 {
